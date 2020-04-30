@@ -29,15 +29,25 @@ body {
   text-align: center;
   color: white;
   border: 1px solid white;
+  border-radius: 5px;
 }
 .panel {
   /* display: none; */
   margin-left: 15px;
   color: rgb(0, 46, 88);
 }
+.panel-info,
+.panel-skills {
+  display: none;
+}
 .grid-2 ul li {
   padding: 5px;
   list-style: none;
+}
+.grid-3 ul li {
+  padding: 5px;
+  list-style: none;
+  display: inline;
 }
 .progress {
   width: 250px;
@@ -124,7 +134,40 @@ body {
   background-color: orange;
   text-align: right;
 }
-
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  color: white;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
 @media only screen and (min-width: 600px) {
   .grid-container {
     grid-template-columns: auto auto auto;
