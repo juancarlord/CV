@@ -35,6 +35,95 @@ body {
   margin-left: 15px;
   color: rgb(0, 46, 88);
 }
+.grid-2 ul li {
+  padding: 5px;
+  list-style: none;
+}
+.progress {
+  width: 250px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  color: black;
+}
+#lengua {
+  width: 250px;
+  height: 20px;
+  text-align: right;
+  color: white;
+  padding: 1px;
+  border-radius: 5px;
+  background-color: green;
+}
+#html {
+  width: 250px;
+  height: 20px;
+  background-color: green;
+  text-align: right;
+}
+#css {
+  width: 250px;
+  height: 20px;
+  background-color: green;
+  text-align: right;
+}
+#js {
+  width: 200px;
+  height: 18px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: yellowgreen;
+  text-align: right;
+}
+#jq {
+  width: 200px;
+  height: 18px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: yellowgreen;
+  text-align: right;
+}
+#php {
+  width: 200px;
+  height: 18px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: yellowgreen;
+  text-align: right;
+}
+#mysql {
+  width: 150px;
+  height: 18px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: yellow;
+  text-align: right;
+}
+#boot {
+  width: 100px;
+  height: 18px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: orange;
+  text-align: right;
+}
+#ang {
+  width: 100px;
+  height: 18px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: orange;
+  text-align: right;
+}
+#react {
+  width: 100px;
+  height: 18px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: orange;
+  text-align: right;
+}
 
 @media only screen and (min-width: 600px) {
   .grid-container {
@@ -42,9 +131,6 @@ body {
   }
   img {
     width: 20%;
-  }
-  .panel {
-    width: 33.33%;
   }
   .col-1 {
     width: 33.33%;
@@ -56,15 +142,20 @@ body {
     width: 100%;
   }
 }
-/* @media only screen and (orientation: landscape) {
+@media only screen and (orientation: landscape) {
   .grid-container {
     grid-template-columns: auto auto auto;
   }
-
   img {
     width: 20%;
   }
-  .panel {
+  .col-1 {
     width: 33.33%;
   }
-} */
+  .col-2 {
+    width: 66.66%;
+  }
+  .col-3 {
+    width: 100%;
+  }
+}
